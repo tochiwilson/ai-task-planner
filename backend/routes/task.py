@@ -25,8 +25,9 @@ def get_all_tasks():
     tasks_cursor = tasks_collection.find()
 
     tasks = []
-    for task in tasks_cursor:
+    for index, task in enumerate(tasks_cursor, start=1):
         task["_id"] = str(task["_id"])
+        task["taskNumber"] = index
         tasks.append(task)
 
     return tasks
