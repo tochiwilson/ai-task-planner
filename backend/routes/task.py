@@ -9,6 +9,12 @@ router = APIRouter()
 # POST /task
 @router.post("/task")
 def create_task(task: Task):
+    if task.title.strip() == "":
+        raise HTTPException(status_code=400, detail="Title Cannot Be Empty")
+    
+    if task.description.strip() == "":
+        raise HTTPException(status_code=400, detail="Description Cannot Be Empty")
+    
     task_dict = task.model_dump()
     result = tasks_collection.insert_one(task_dict)
     return {"inserted_id": str(result.inserted_id)}
