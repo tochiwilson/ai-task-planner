@@ -4,7 +4,26 @@ from models import Task, UpdateTask
 
 from db import tasks_collection
 
+import joblib
+import re
+
 router = APIRouter()
+
+# AI Model load logic
+MODEL_PATH = "./model/priority_classifier_model.pkl"
+
+try:
+    PRIORITY_PREDICTOR = joblib.load(MODEL_PATH)
+    print("AI-Priority model successfully loaded.")
+except FileNotFoundError:
+    PRIORITY_PREDICTOR = None
+    print("AI-Priority model not found.")
+    
+def clean_text_for_prediction(text):
+    text = str(text).lower()
+    text = re.sub(r"[^a-z\s]", "", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
 
 # POST /task
 @router.post("/task")
@@ -15,8 +34,26 @@ def create_task(task: Task):
     if task.description.strip() == "":
         raise HTTPException(status_code=400, detail="Description Cannot Be Empty")
     
+    task_input = f"{task.title.strip()} {task.description.strip()}"
+    
+    if task.priority is None:
+        if PRIORITY_PREDICTOR:
+            # clean the input text
+            cleaned_input = clean_text_for_prediction(task_input)
+            
+            # predict priority
+            predicted_priority = PRIORITY_PREDICTOR.predict([cleaned_input])[0]
+            
+            task.priority = predicted_priority
+            print(f"Predicted priority: {predicted_priority} for task.")
+        else:
+            task.priority = "medium"  # Default priority
+            print("Model not available. Assigned default priority: medium.")
+    
+    # save in the database    
     task_dict = task.model_dump()
     result = tasks_collection.insert_one(task_dict)
+    
     return {"inserted_id": str(result.inserted_id)}
 
 # GET /taks
