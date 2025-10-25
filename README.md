@@ -2,6 +2,8 @@
 
 A full-stack web application for task management, where the priority of a new task (High, Medium, Low) is automatically predicted by a Machine Learning model in the backend.
 
+<img width="1920" height="850" alt="Image" src="https://github.com/user-attachments/assets/0f8150f7-02b3-4619-9e1d-372c65bc7eaa" />
+
 ---
 
 ## 🚀 Features
