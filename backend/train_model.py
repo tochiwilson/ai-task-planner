@@ -1,7 +1,7 @@
 import pandas as pd
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.naive_bayes import MultinomialNB
+from sklearn.svm import LinearSVC
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import classification_report
 import joblib
@@ -27,13 +27,35 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 # pipeline: vectorizer for text + classifier for priority
 model_pipeline = Pipeline(
-    [("vectorizer", TfidfVectorizer()), ("classifier", MultinomialNB())]
+    [("vectorizer", TfidfVectorizer()),
+    ("classifier", LinearSVC(random_state=42))]
+)
+
+# hyperparameter grid
+param_grid = {
+    # 2 word combinations
+    'vectorizer__ngram_range': [(1,2)],
+    
+    # complexity parameter for SVM
+    'classifier__C': [0.5, 1.0, 5.0, 10.0],
+    
+    # min document frequency for the vectorizer
+    'vectorizer__min_df': [1, 5]
+}
+
+# grid search
+grid_search = GridSearchCV(
+    model_pipeline,
+    param_grid,
+    cv=5,
+    scoring="f1_weighted", 
+    n_jobs=-1,
+    verbose=2
 )
 
 # train model
-print("Starting model training...")
-model_pipeline.fit(X_train, y_train)
-print("Model successfully trained!")
+grid_search.fit(X_train, y_train)
+model_pipeline = grid_search.best_estimator_
 
 # model evaluation
 y_pred = model_pipeline.predict(X_test)
