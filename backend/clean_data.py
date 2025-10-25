@@ -1,8 +1,9 @@
 import pandas as pd
 import re
 
-INPUT_FILE = "./dataset/messy_tasks_dataset.csv"
-OUTPUT_FILE = "./dataset/cleaned_tasks.csv"
+#INPUT_FILE = "./dataset/messy_tasks_dataset.csv"
+INPUT_FILE = "./dataset/generated_tasks.csv"
+OUTPUT_FILE = "./dataset/cleaned_generated_tasks.csv"
 
 try:
     df = pd.read_csv(INPUT_FILE)
