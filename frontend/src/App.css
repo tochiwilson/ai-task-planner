@@ -1,68 +1,196 @@
+/* --- Globale Stijlen & Typografie --- */
+* {
+  box-sizing: border-box;
+  /* Zorgt voor een voorspelbaar layout-model */
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f8f5;
-  color: #2c3e50;
+  /* Een moderner, strakker lettertype-stack */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  /* Een neutraler, zacht grijs als achtergrond */
+  background-color: #f4f7f6;
+  color: #333;
+  /* Donkerder tekst voor beter contrast */
   margin: 0;
   padding: 20px;
 }
 
-div {
-  max-width: 600px;
-  margin: auto;
+/* --- Container & Titels --- */
+/* We richten ons op de containers van de form en list i.p.v. een algemene div */
+form,
+div>h2,
+ul {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
-  color: #27ae60;
+  color: #2c3e50;
+  /* Sterk, neutraal donker */
   text-align: center;
+  margin-bottom: 30px;
 }
 
 h2 {
-  color: #2ecc71;
-}
-
-form {
-  background-color: #ffffff;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #27ae60;
+  /* Behoud je groene accentkleur */
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 8px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 
-input,
-textarea {
-  width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+/* --- Formulier Stijlen --- */
+form {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  /* Een zachte, moderne schaduw */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
 }
 
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  /* Groter en makkelijker te klikken */
+  margin: 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  /* Vloeiende focus */
+}
+
+/* Stijl voor wanneer je in het veld klikt */
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #27ae60;
+  /* Groene rand op focus */
+  box-shadow: 0 0 8px rgba(39, 174, 96, 0.2);
+  /* Zachte gloed */
+  outline: none;
+  /* Verwijder de standaard blauwe rand */
+}
+
+/* --- Knop Stijlen --- */
 button {
   background-color: #27ae60;
   color: white;
   border: none;
-  padding: 8px 15px;
+  padding: 12px 20px;
+  /* Grotere knop */
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 5px;
+  font-weight: bold;
+  font-size: 1em;
+  transition: background-color 0.2s, transform 0.1s;
 }
 
 button:hover {
   background-color: #2ecc71;
 }
 
+button:active {
+  transform: scale(0.98);
+  /* Klik-effect */
+}
+
+/* --- Takenlijst Stijlen --- */
 ul {
   list-style-type: none;
   padding-left: 0;
 }
 
 li {
-  background-color: #e8f5e9;
-  padding: 10px;
-  margin-bottom: 8px;
-  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+
+  /* Flexbox voor een strakke uitlijning */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 15px;
+  /* Ruimte tussen de onderdelen */
+}
+
+/* Dit lost de layout op: groepeer de tekst links */
+.task-content {
+  flex-grow: 1;
+}
+
+/* Titel van de taak */
+li span:first-of-type {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #2c3e50;
+  display: block;
+  /* Zorgt dat de titel boven de beschrijving staat */
+}
+
+li p {
+  color: #777;
+  font-size: 0.9em;
+  margin: 5px 0 0 0;
+  /* Ruimte tussen titel en beschrijving */
+}
+
+/* --- !!! DE BELANGRIJKE PRIORITEITS-BADGES !!! --- */
+.priority-badge {
+  padding: 4px 12px;
+  border-radius: 15px;
+  /* Maakt er een "pil" van */
+  font-size: 0.8em;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  flex-shrink: 0;
+  /* Voorkom dat de badge samengedrukt wordt */
+}
+
+/* De kleuren die gekoppeld zijn aan je AI-model */
+.priority-high {
+  background-color: #e74c3c;
+  /* Rood */
+}
+
+.priority-medium {
+  background-color: #f39c12;
+  /* Oranje */
+}
+
+.priority-low {
+  background-color: #3498db;
+  /* Blauw */
+}
+
+/* --- Verwijderknop Stijl --- */
+li button {
+  background-color: #e74c3c;
+  /* Rood, past bij Hoge prioriteit */
+  padding: 8px 12px;
+  font-size: 0.9em;
+}
+
+li button:hover {
+  background-color: #c0392b;
+  /* Donkerder rood */
+}
+li button:active {
+  transform: scale(0.95);
 }
