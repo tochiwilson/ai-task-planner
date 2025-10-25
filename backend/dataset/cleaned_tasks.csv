@@ -1,141 +1,487 @@
 task,priority_label
-find new laptop wallpaper,Low
-refactor code in old module,Medium
-chck dtbs bckup,High
-visitsupermarketfordinner,Medium
-make small ui improvements to dashboard,Medium
-create new playlist on spotify,Medium
-book dentist appointment,High
-read new ai article,Low
-take detailed notes for next class,Medium
-fix typos in readme file,Low
-check database backup,High
-call client x about urgent issue,High
-read new api documentation,Medium
-organize desk cable management,Low
-verify bank account and approve invoices,High
-write unit tests for helper functions,Medium
-follow up with supplier via email maybe,Medium
-help colleague a with sql query,Medium
-check database backup check later,High
 finish next weeks presentation,High
-water office plant,Low
+take detailed notes for next class,Medium
 send email to professor about thesis deadline,High
-fix critical issue in production environment,High
-fix bug in login module,High
-take detailed notes,Medium
-prepare project meeting with client tomorrow,High
-visit supermarket for dinner,Medium
-implement new dark mode feature,Medium
-finish next weeks pres,High
-helpcolleagueawithsqlquery,Medium
-make small ui improvements to dashboard maybe,Medium
-investigate error in authentication process,High
-watch a pytorch tutorial,Medium
-remind team members about sprint deadline,High
-follow up with supplier via email,Medium
-archive old emails in inbox,Low
-install server patch after work hours,High
-writ unit tsts for hlpr functions,Medium
-implmnt nw drk mod ftur,Medium
-ordr nw coff mchin,Low
-conduct code review on main module,High
-call client x about urgent issue check later,High
-update music playlist,Low
-installserverpatchafterworkhours,High
-verifybankaccountandapproveinvoices,High
-remindteammembersaboutsprintdeadline,High
-visit supermarket for dinner maybe,Medium
-read new,Medium
-organize desk cable ma,Low
-archive old,Low
-order new coffee machine,Low
-send email to professor about thesis deadline check later,High
-remind team members about sprint deadline urgent,High
-rfctor cod in old modul,Medium
-watchapytorchtutorial,Medium
-makesmalluiimprovementstodashboard,Medium
-fixtyposinreadmefile,Low
-create new play,Medium
-order new co,Low
-orgniz dsk cbl mngmnt,Low
-refactor code in old module pending approval,Medium
-watch a pytorch tutorial maybe,Medium
-organize de,Low
-rd nw api documnttion,Medium
-createnewplaylistonspotify,Medium
-watch a pytorch,Medium
-takedetailednotesfornextclass,Medium
-conduct code,High
-send email to profe,High
-writeunittestsforhelperfunctions,Medium
-im,Medium
-archive old emails in inbox urgent,Low
-follow up with suppl,Medium
-implement new dark mod,Medium
-implementnewdarkmodefeature,Medium
-cll clint x bout urgnt issu,High
-chec,High
-update music playlist check later,Low
-prepareprojectmeetingwithclienttomorrow,High
-conduct code review on main module urgent,High
-fix typos in readm,Low
-visit suprmrkt for dinnr,Medium
-fix bug in login modul,High
-fix typos in readme file urgent,Low
-instll srvr ptch ftr work hours,High
-make small ui,Medium
-finishnextweekspresentation,High
-followupwithsupplierviaemail,Medium
-read new api documentation urgent,Medium
-rd nw ai rticl,Low
-send email to professor about thesis deadline maybe,High
-read new,Low
-readnewaiarticle,Low
-implement new dark mode feature check later,Medium
-prpr projct mting with clint tomorrow,High
-investigateerrorinauthenticationprocess,High
-order new coffee machine pending approval,Low
-make small ui improvements to das,Medium
-conduct code review on main m,High
-follow up with supplier via email check later,Medium
-mk smll ui improvmnts to dshbord,Medium
-r,Medium
-prepare project meeting with client tomo,High
-fix criticl issu in production nvironmnt,High
-call client x about urgent issue urgent,High
-finish next weeks presen,High
-conduct code review on main module pending approval,High
-checkdatabasebackup,High
-organize desk cable management maybe,Low
-update mus,Low
-waterofficeplant,Low
-organize desk cable management pending approval,Low
+remind team members about sprint deadline pending approval,High
+create new playlist,Medium
 conduct cod rviw on min modul,High
-fix bug in login mod,High
-fix bug i,High
-make small ui improvements to dashboard pending approval,Medium
-follow up with supplier via,Medium
-finish nxt wks prsnttion,High
-watch a pytor,Medium
+write unit tests for helper functions,Medium
+verify bank account and approve invoices,High
+create new playlist on spotify,Medium
+read new ai article,Low
+book dentist appointment,High
+install server patch after work hours,High
+investigate error in authentication process,High
+organize desk cable management,Low
+read new api documentation,Medium
+refactor code in old module,Medium
+fix bug in login module,High
+implement new dark mode feature,Medium
+implement ne,Medium
+send em,High
+follow up with supplier via email,Medium
+make small ui improvements to dashboard,Medium
+water office plant,Low
+visit supermarket for dinner,Medium
+writeunittestsforhelperfunctions,Medium
+conduct code review on main module,High
+remind team members about sprint deadline,High
 book dntist ppointmnt,High
-verify bank account and approve invoices pending approval,High
-help colleague a with sql query maybe,Medium
-refactor code in,Medium
-refactorcodeinoldmodule,Medium
-fix typos in readme file pending approval,Low
-conduct,High
-read new api docu,Medium
-order new coffe,Low
-bookdentistappointment,High
-update musi,Low
-visit superm,Medium
-callclientxabouturgentissue,High
-water office pl,Low
-install server patch after work hours maybe,High
-install se,High
-help colleague a with sql query urgent,Medium
-investigate error in authentication process check later,High
+prepare project meeting with client tomorrow,High
+order new coffee machine,Low
+find new laptop wallpaper,Low
+check database backup,High
+fix typos in readme file,Low
+call client x about urgent issue,High
+watch a pytorch tutorial,Medium
+veri,High
+implement new,Medium
+check data,High
+rfctor cod in old modul,Medium
+fix typos in readme file maybe,Low
+invstigt rror in uthntiction procss,High
+fixcriticalissueinproductionenvironment,High
+make small ui improvements t,Medium
+archive old emails in inbox,Low
+help colleague a with sql query,Medium
+follow up with supplier via email check later,Medium
+check database backup urgent,High
+fix bug in login modul,High
+investigateerrorinauthenticationprocess,High
 snd mil to profssor bout thsis ddlin,High
-fix critical issue in production environmen,High
-update music pla,Low
+hlp collgu a with sql qury,Medium
+investigate error in authentic,High
+help colleague a wi,Medium
+check database b,High
+conduct code review on main module maybe,High
+instll srvr ptch ftr work hours,High
+watch a pytorch tutorial check later,Medium
+fix critical issue in production environment,High
+takedetailednotesfornextclass,Medium
+read new api documentati,Medium
+archive old emails in inbox check later,Low
+finishnextweekspresentation,High
+water office plant check later,Low
+investigate error in authentication process maybe,High
+send email to pr,High
+readnewapidocumentation,Medium
+write unit tests for helper functions check later,Medium
+bookdentistappointment,High
+water office plant pending approval,Low
+wtr offic plnt,Low
+helpcolleagueawithsqlquery,Medium
+follow up with supplir vi mil,Medium
+readnewaiarticle,Low
+help colle,Medium
+update music playlist,Low
+implement new dark mode feature pending approval,Medium
+orde,Low
+ordernewcoffeemachine,Low
+prepareprojectmeetingwithclienttomorrow,High
+rd nw api documnttion,Medium
+make small ui improvements to dashboard pending approval,Medium
+prepare project meeting with client tomorrow maybe,High
+cll clint x bout urgnt issu,High
+order new,Low
+refactor code,Medium
+find nw lptop wllppr,Low
+finish next weeks presentatio,High
+checkdatabasebackup,High
+order new coffee machine maybe,Low
+fix critical issue in production e,High
+install server patch after work hours pending approval,High
+order new coffee machine check later,Low
+makesmalluiimprovementstodashboard,Medium
+help colleague a with sql query maybe,Medium
+fix typos in rdm fil,Low
+fixtyposinreadmefile,Low
+archiveoldemailsininbox,Low
+write unit tests for,Medium
+follow up with supplier via email urgent,Medium
+verifybankaccountandapproveinvoices,High
+implement new dark mode feature check later,Medium
+order new cof,Low
+prpr projct mting with clint tomorrow,High
+implmnt nw drk mod ftur,Medium
+check database backup pending approval,High
+read new api documentation urgent,Medium
+fix critical issue in production environment maybe,High
+refactorcodeinoldmodule,Medium
+visit suprmrkt for dinnr,Medium
+rmind tm mmbrs bout sprint ddlin,High
+archiv old mils in inbox,Low
+help colleague a with sql query check later,Medium
+call clie,High
+wtch pytorch tutoril,Medium
+conductcodereviewonmainmodule,High
+vrify bnk ccount nd pprov invoics,High
+organize desk cab,Low
+find new la,Low
+writ unit tsts for hlpr functions,Medium
+make small ui improvements to da,Medium
+take detailed notes for next class pending approval,Medium
+investigate error in authenti,High
+check database back,High
+visitsupermarketfordinner,Medium
+finish nxt wks prsnttion,High
+fix bug in login module pending approval,High
+ordr nw coff mchin,Low
+install server p,High
+send email to professor ab,High
+followupwithsupplierviaemail,Medium
+follow up with supplier via ema,Medium
+finish next weeks presentation urgent,High
+write unit tests,Medium
+prepare project meeting with client tomorrow pending approval,High
+help colleagu,Medium
+crt nw plylist on spotify,Medium
+help colleague a with sql query pending approval,Medium
+book d,High
+createnewplaylistonspotify,Medium
+f,Low
+visit supermarket for dinner maybe,Medium
+investig,High
+take detailed no,Medium
+implement new dark mode feature urgent,Medium
+waterofficeplant,Low
+book dentist appointment check later,High
+watch a pyt,Medium
+fixbuginloginmodule,High
+write unit tests for helper functions pending approval,Medium
+fix typos in r,Low
+conduct,High
+callclientxabouturgentissue,High
+finish next w,High
+updt music plylist,Low
+investigate error in authentication process urgent,High
+send email to professor about thesis deadline maybe,High
+book dentist,High
+rd nw ai rticl,Low
+send email to professor about thesis deadline urgent,High
+read new api documentation check later,Medium
+organizedeskcablemanagement,Low
+remind team members about sprint d,High
+mk smll ui improvmnts to dshbord,Medium
+check database backup check later,High
+water offic,Low
+watch a pytorch tutorial urgent,Medium
+organize desk cable management urgent,Low
+remind team members,High
+w,Medium
+watch a pytorch tutorial pending approval,Medium
+implementnewdarkmodefeature,Medium
+visit supermark,Medium
+findnewlaptopwallpaper,Low
+investigate error in authentication process check later,High
+fix bug,High
+help colleague a with sql query urgent,Medium
+fini,High
+remind team members about sprint deadline check later,High
+create ne,Medium
+remindteammembersaboutsprintdeadline,High
+install se,High
+tk dtild nots for nxt clss,Medium
+call client x about urgent issue urgent,High
+finish next weeks presentation check later,High
+updatemusicplaylist,Low
+call client x about urgent issue check later,High
+watchapytorchtutorial,Medium
+install server patch after w,High
+visit supermarket for dinn,Medium
+prepare project meeting with,High
+create new playlist on spotif,Medium
+implement new dar,Medium
+sendemailtoprofessoraboutthesisdeadline,High
+follow up with supplier via email maybe,Medium
+refactor code in old module urgent,Medium
+fix criticl issu in production nvironmnt,High
+remind team member,High
+installserverpatchafterworkhours,High
+read new ai,Low
+insta,High
+read new ai article check later,Low
+t,Medium
+fix c,High
+archive old emails in inbox urgent,Low
+verify bank account and approve invoic,High
+visit supermarket for dinner pending approval,Medium
+create new playlist on,Medium
+read new api documentation maybe,Medium
+install server patch after work hours urgent,High
+investigate error,High
+implement new dark mo,Medium
+check database backup maybe,High
+fix typos in readme file urgent,Low
+follow up with supplier via email pending approval,Medium
+archive old emails in inbox pending approval,Low
+fix ty,Low
+install server patch after work,High
+visit supermarke,Medium
+write unit tests for helper fu,Medium
+create new playlist on spotify urgent,Medium
+fix critical issue in pr,High
+make small ui im,Medium
+check database,High
+follow up with supplier via,Medium
+refactor,Medium
+fix critical issue in production,High
+fix bug in,High
+refactor code in old module pending approval,Medium
+refactor code in ol,Medium
+ch,High
+chck dtbs bckup,High
+watch a pytorch tutor,Medium
+finish next we,High
+call client,High
+read new ai article maybe,Low
+call client x about urgent issue maybe,High
+take detailed notes for,Medium
+prepare project meeting with client tom,High
+make small ui,Medium
+create new playlist on spoti,Medium
+watch a p,Medium
+water office plan,Low
+implem,Medium
+book dentist appointment pending approval,High
+conduct code review on main module check later,High
+update music,Low
+verify bank account an,High
+c,High
+water office,Low
+update music playlist maybe,Low
+find new laptop wallpaper maybe,Low
+watch a pytorch tutorial maybe,Medium
+take detailed notes for ne,Medium
+fix critical issue in production environment urgent,High
+create new playlist on spotify check later,Medium
+remind,High
+take detailed notes for next class urgent,Medium
+fix,High
+make small ui impr,Medium
+fix typos in readme,Low
+send email to professor about thesis deadline check later,High
+make small ui improvemen,Medium
+update music playlist urgent,Low
+implement,Medium
+prepare p,High
+finish n,High
+find new l,Low
+send ema,High
+conduct code review on ma,High
+create new pl,Medium
+fix bug in login mod,High
+fin,High
+find new laptop wallpaper pending approval,Low
+find new laptop wa,Low
+orgniz dsk cbl mngmnt,Low
+follow up w,Medium
+fix critical issue in,High
+visit supermarket for di,Medium
+make small ui improvements to dashboard maybe,Medium
+prepare project meeting with client tomorrow check later,High
+book dentis,High
+fix bu,High
+send email to professor about thesis deadline pending approval,High
+read,Low
+book dentist appointment urgent,High
+book,High
+i,High
+archive o,Low
+watc,Medium
+watch a pytorch tutori,Medium
+call client x about urgent i,High
+prepare project meeting with client tomorrow urgent,High
+co,High
+ins,High
+prepare project meeting,High
+refactor code in old module check later,Medium
+fi,High
+visit supermarket for dinner urgent,Medium
+read,Medium
+read new api documentation pending approval,Medium
+book dentist appointment maybe,High
+water of,Low
+conduct code review on main modul,High
+verify bank account and approve invoices check later,High
+make small ui improvements to dashboard urgent,Medium
+update music playlist pending approval,Low
+write unit tests for helper functions maybe,Medium
+fix bug in login module maybe,High
+read new api d,Medium
+remind team members about sprint dea,High
+conduct code revi,High
+take detailed notes for next cl,Medium
+verify bank account and approve invoice,High
+implement new dark mode feature maybe,Medium
+install serve,High
+finish next weeks pr,High
+finish next week,High
+organize desk cable man,Low
+verify bank account and approve in,High
+prepare project mee,High
+refactor code i,Medium
+update music pl,Low
+order new coffee,Low
+help collea,Medium
+verify,High
+send,High
+h,Medium
+conduct code re,High
+find new laptop wallpaper check later,Low
+imple,Medium
+send email to professor about t,High
+conduct code,High
+read new a,Medium
+refac,Medium
+create new playlist o,Medium
+verify bank account and approve invoices maybe,High
+check databa,High
+organize d,Low
+f,Medium
+take detailed notes for nex,Medium
+conduct code review on main module urgent,High
+take detailed not,Medium
+archi,Low
+fix critical issue in produ,High
+read new ai article pending approval,Low
+install server patch after wo,High
+visit su,Medium
+order new coffee mach,Low
+remind team m,High
+verify bank,High
+fix crit,High
+book dentist appointmen,High
+read new,Medium
+follow up wi,Medium
+update music playli,Low
+inv,High
+finish next weeks presentation pending approval,High
+visit supermarket for din,Medium
+bo,High
+watch a py,Medium
+fix critical issue in production environment check later,High
+fix typos in readme fil,Low
+check datab,High
+follow up with supplier,Medium
+verify bank account and a,High
+take detailed notes for next class check later,Medium
+create new p,Medium
+archive old ema,Low
+implement n,Medium
+write unit tests for helper,Medium
+verify bank acco,High
+conduct code review on mai,High
+make small ui improvements to dashboard check later,Medium
+impl,Medium
+verify bank account and approve invoices pending approval,High
+ar,Low
+take detaile,Medium
+fin,Low
+finish next weeks presentat,High
+update mu,Low
+organize des,Low
+organize desk cable management pending approval,Low
+prepare,High
+install server patch after work hours maybe,High
+fix bug in login module check later,High
+take detailed notes for next class maybe,Medium
+help,Medium
+help colleague a,Medium
+fix critical issue in production environme,High
+install server patch aft,High
+visit supermar,Medium
+finish,High
+remind team members about sprin,High
+check,High
+help colleague a with sql quer,Medium
+send email,High
+write unit tests for helper functions urgent,Medium
+visit supermarket for dinne,Medium
+create new playlist on spotify pending approval,Medium
+update music playlist check later,Low
+take deta,Medium
+watch a pytorch tut,Medium
+make s,Medium
+organize desk,Low
+send email to professor abo,High
+finish next weeks p,High
+read new ai article urgent,Low
+implement new da,Medium
+implement new dark mode fe,Medium
+water,Low
+o,Low
+make sma,Medium
+create new playlist on spotify maybe,Medium
+follow up with suppli,Medium
+take,Medium
+investigate error in authentication proces,High
+refactor code in old module maybe,Medium
+send e,High
+remind team,High
+remind team members about sprint deadline urgent,High
+create new playlist on spot,Medium
+water office plant maybe,Low
+prepare project meeting with client,High
+archive old emails in inbox maybe,Low
+conduct code review on main,High
+fix critical issue in production environment pending approval,High
+write unit t,Medium
+tak,Medium
+call client x about urgent issue pending approval,High
+fix typos in,Low
+conduct code r,High
+organize desk cable manag,Low
+find new laptop,Low
+fix critical issue in product,High
+follow up with supplier vi,Medium
+c,Medium
+refact,Medium
+update,Low
+make sm,Medium
+finish next weeks presentation maybe,High
+fix bug in login module urgent,High
+water office plant urgent,Low
+fix bug in l,High
+take detailed note,Medium
+visit supermarket for dinner check later,Medium
+investigate error in authenticat,High
+visit,Medium
+visit super,Medium
+refactor code in old mod,Medium
+visit supermarket,Medium
+ord,Low
+watch,Medium
+r,Medium
+prepare project meeti,High
+read new api,Medium
+order new coffee machine urgent,Low
+creat,Medium
+fix bug in login m,High
+find new laptop wallpaper urgent,Low
+create new,Medium
+install server patch after work ho,High
+make small ui improvements to,Medium
+install server patch after work hours check later,High
+fix critica,High
+follow,Medium
+follow up wit,Medium
+find n,Low
+find new laptop wallpa,Low
+follow up,Medium
+prepare project meeting with client tomo,High
+prepar,High
+fix typos in readme f,Low
+check database backu,High
+install,High
+find new lapt,Low
+visit supermarket fo,Medium
+archive old email,Low
+remind team members about sprint deadline maybe,High
+organize desk cable management check later,Low
+follow up with supplier via e,Medium
+verify bank account and approve invoices urgent,High
+water offi,Low
+cr,Medium
+conduct code review on,High
+finish next weeks presen,High
+investigate,High
