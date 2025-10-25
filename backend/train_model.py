@@ -6,7 +6,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.metrics import classification_report
 import joblib
 
-INPUT_FILE = "./dataset/cleaned_tasks.csv"
+INPUT_FILE = "./dataset/cleaned_generated_tasks.csv"
 MODEL_FILENAME = "./model/priority_classifier_model.pkl"
 
 try:
